@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule ^property-listing/([^/]+)/?$ property-listing.php?slug=$1 [L,QSA]
+
+# Hotel listing rewrite rules
+RewriteRule ^all-hotels-listing/([^/]+)/?$ all-hotels-listing.php?slug=$1 [L,QSA]
+RewriteRule ^all-hotels-listing/([^/]+)/([0-9]+)/?$ all-hotels-listing.php?slug=$1&id=$2 [L,QSA]

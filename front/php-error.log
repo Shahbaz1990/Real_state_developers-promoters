@@ -1,0 +1,1101 @@
+[28-Aug-2026 13:04:53 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/front/includes/header.php on line 7
+[29-Aug-2026 09:36:14 UTC] Config loaded from: /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/front/includes/config.php
+[29-Aug-2026 09:36:14 UTC] INPUT DATA: Array
+(
+    [project_id] => 1
+    [section] => property-details
+    [fields] => Array
+        (
+            [project_name] => Kalpataru Vian
+            [address] => Andheri West, Mumbai
+            [rera_number] => P02400053321
+            [approvals] => HMDA | RERA
+            [price] => ₹1.78 Cr
+            [min_sft] => 840 - 855
+            [construction_status] => Under Construction
+Completion in Aug, 2026
+            [year_built] => Aug, 2026
+        )
+
+)
+
+[29-Aug-2026 09:36:14 UTC] SQL: UPDATE trending_projects SET project_name = ?, address = ?, rera_number = ?, approvals = ?, price = ?, min_sft = ?, construction_status = ?, year_built = ? WHERE id = ?
+[29-Aug-2026 09:36:14 UTC] Params: Array
+(
+    [0] => Kalpataru Vian
+    [1] => Andheri West, Mumbai
+    [2] => P02400053321
+    [3] => HMDA | RERA
+    [4] => ₹1.78 Cr
+    [5] => 840 - 855
+    [6] => Under Construction
+Completion in Aug, 2026
+    [7] => Aug, 2026
+    [8] => 1
+)
+
+[29-Aug-2026 09:36:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'rera_number' in 'SET' in /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/front/save-property-section.php:145
+Stack trace:
+#0 /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/front/save-property-section.php(145): mysqli->prepare()
+#1 {main}
+  thrown in /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/front/save-property-section.php on line 145
+[29-Aug-2026 09:38:43 UTC] Config loaded from: /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/front/includes/config.php
+[29-Aug-2026 09:38:43 UTC] INPUT DATA: Array
+(
+    [project_id] => 1
+    [section] => property-details
+    [fields] => Array
+        (
+            [project_name] => Kalpataru Vian
+            [address] => Andheri West, Mumbai
+            [rera_number] => P02400053321
+            [approvals] => HMDA | RERA
+            [price] => ₹1.78 Cr
+            [min_sft] => 840 - 855
+            [construction_status] => Under Construction
+Completion in Aug, 2026
+            [year_built] => Aug, 2026
+        )
+
+)
+
+[29-Aug-2026 09:38:43 UTC] Table columns: Array
+(
+    [0] => id
+    [1] => project_name
+    [2] => category_id
+    [3] => listing_type_id
+    [4] => category_type
+    [5] => slug
+    [6] => address
+    [7] => city
+    [8] => price
+    [9] => bedrooms
+    [10] => bathrooms
+    [11] => area
+    [12] => year_built
+    [13] => furnished
+    [14] => plot_area
+    [15] => towers
+    [16] => floors
+    [17] => units
+    [18] => total_project_area
+    [19] => open_area
+    [20] => amenities
+    [21] => about_project
+    [22] => phases_json
+    [23] => spec_flooring
+    [24] => spec_bathrooms
+    [25] => spec_kitchen
+    [26] => spec_doors_windows
+    [27] => owner_email
+    [28] => owner_phone
+    [29] => appointment_date
+    [30] => image
+    [31] => brochure
+    [32] => project_order
+    [33] => status
+    [34] => package_id
+    [35] => created_at
+    [36] => updated_at
+)
+
+[29-Aug-2026 09:38:43 UTC] Skipping field (column does not exist): rera_number
+[29-Aug-2026 09:38:43 UTC] Skipping field (column does not exist): approvals
+[29-Aug-2026 09:38:43 UTC] Skipping field (column does not exist): min_sft
+[29-Aug-2026 09:38:43 UTC] Skipping field (column does not exist): construction_status
+[29-Aug-2026 09:38:43 UTC] SQL: UPDATE trending_projects SET project_name = ?, address = ?, price = ?, year_built = ? WHERE id = ?
+[29-Aug-2026 09:38:43 UTC] Params: Array
+(
+    [0] => Kalpataru Vian
+    [1] => Andheri West, Mumbai
+    [2] => ₹1.78 Cr
+    [3] => Aug, 2026
+    [4] => 1
+)
+
+[29-Aug-2026 09:39:39 UTC] Config loaded from: /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/front/includes/config.php
+[29-Aug-2026 09:39:39 UTC] INPUT DATA: Array
+(
+    [project_id] => 1
+    [section] => property-details
+    [fields] => Array
+        (
+            [project_name] => Kalpataru Vian
+            [address] => Andheri West western suburb, Mumbai
+            [rera_number] => P02400053321
+            [approvals] => HMDA | RERA
+            [price] => ₹1.78 Cr
+            [min_sft] => 840 - 855
+            [construction_status] => Under Construction
+Completion in Aug, 2026
+            [year_built] => Aug, 2026
+        )
+
+)
+
+[29-Aug-2026 09:39:39 UTC] Table columns: Array
+(
+    [0] => id
+    [1] => project_name
+    [2] => category_id
+    [3] => listing_type_id
+    [4] => category_type
+    [5] => slug
+    [6] => address
+    [7] => city
+    [8] => price
+    [9] => bedrooms
+    [10] => bathrooms
+    [11] => area
+    [12] => year_built
+    [13] => furnished
+    [14] => plot_area
+    [15] => towers
+    [16] => floors
+    [17] => units
+    [18] => total_project_area
+    [19] => open_area
+    [20] => amenities
+    [21] => about_project
+    [22] => phases_json
+    [23] => spec_flooring
+    [24] => spec_bathrooms
+    [25] => spec_kitchen
+    [26] => spec_doors_windows
+    [27] => owner_email
+    [28] => owner_phone
+    [29] => appointment_date
+    [30] => image
+    [31] => brochure
+    [32] => project_order
+    [33] => status
+    [34] => package_id
+    [35] => created_at
+    [36] => updated_at
+)
+
+[29-Aug-2026 09:39:39 UTC] Skipping field (column does not exist): rera_number
+[29-Aug-2026 09:39:39 UTC] Skipping field (column does not exist): approvals
+[29-Aug-2026 09:39:39 UTC] Skipping field (column does not exist): min_sft
+[29-Aug-2026 09:39:39 UTC] Skipping field (column does not exist): construction_status
+[29-Aug-2026 09:39:39 UTC] SQL: UPDATE trending_projects SET project_name = ?, address = ?, price = ?, year_built = ? WHERE id = ?
+[29-Aug-2026 09:39:39 UTC] Params: Array
+(
+    [0] => Kalpataru Vian
+    [1] => Andheri West western suburb, Mumbai
+    [2] => ₹1.78 Cr
+    [3] => Aug, 2026
+    [4] => 1
+)
+
+[29-Aug-2026 09:42:25 UTC] Config loaded from: /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/front/includes/config.php
+[29-Aug-2026 09:42:25 UTC] INPUT DATA: Array
+(
+    [project_id] => 1
+    [section] => property-details
+    [fields] => Array
+        (
+            [project_name] => Kalpataru Vian
+            [address] => Andheri West western suburb, Mumbai
+            [rera_number] => P02400053321
+            [approvals] => HMDA | RERA
+            [price] => ₹1.78 Cr
+            [min_sft] => 840 - 855
+            [construction_status] => Under Construction
+Completion in Aug, 2025
+            [year_built] => Aug, 2025
+        )
+
+)
+
+[29-Aug-2026 09:42:25 UTC] Table columns: Array
+(
+    [0] => id
+    [1] => project_name
+    [2] => category_id
+    [3] => listing_type_id
+    [4] => category_type
+    [5] => slug
+    [6] => address
+    [7] => city
+    [8] => price
+    [9] => bedrooms
+    [10] => bathrooms
+    [11] => area
+    [12] => year_built
+    [13] => furnished
+    [14] => plot_area
+    [15] => towers
+    [16] => floors
+    [17] => units
+    [18] => total_project_area
+    [19] => open_area
+    [20] => amenities
+    [21] => about_project
+    [22] => phases_json
+    [23] => spec_flooring
+    [24] => spec_bathrooms
+    [25] => spec_kitchen
+    [26] => spec_doors_windows
+    [27] => owner_email
+    [28] => owner_phone
+    [29] => appointment_date
+    [30] => image
+    [31] => brochure
+    [32] => project_order
+    [33] => status
+    [34] => package_id
+    [35] => created_at
+    [36] => updated_at
+)
+
+[29-Aug-2026 09:42:25 UTC] Skipping field (column does not exist): rera_number
+[29-Aug-2026 09:42:25 UTC] Skipping field (column does not exist): approvals
+[29-Aug-2026 09:42:25 UTC] Skipping field (column does not exist): min_sft
+[29-Aug-2026 09:42:25 UTC] Skipping field (column does not exist): construction_status
+[29-Aug-2026 09:42:25 UTC] SQL: UPDATE trending_projects SET project_name = ?, address = ?, price = ?, year_built = ? WHERE id = ?
+[29-Aug-2026 09:42:25 UTC] Params: Array
+(
+    [0] => Kalpataru Vian
+    [1] => Andheri West western suburb, Mumbai
+    [2] => ₹1.78 Cr
+    [3] => Aug, 2025
+    [4] => 1
+)
+
+[29-Aug-2026 09:44:42 UTC] Config loaded from: /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/front/includes/config.php
+[29-Aug-2026 09:44:42 UTC] INPUT DATA: Array
+(
+    [project_id] => 1
+    [section] => property-details
+    [fields] => Array
+        (
+            [project_name] => Kalpataru Vian
+            [address] => Andheri West, western suburb, Mumbai
+            [rera_number] => P02400053321
+            [approvals] => HMDA | RERA
+            [price] => ₹1.78 Cr
+            [min_sft] => 840 - 855
+            [construction_status] => Under Construction
+Completion in Aug, 2026
+            [year_built] => Aug, 2026
+        )
+
+)
+
+[29-Aug-2026 09:44:42 UTC] Table columns: Array
+(
+    [0] => id
+    [1] => project_name
+    [2] => category_id
+    [3] => listing_type_id
+    [4] => category_type
+    [5] => slug
+    [6] => address
+    [7] => city
+    [8] => price
+    [9] => bedrooms
+    [10] => bathrooms
+    [11] => area
+    [12] => year_built
+    [13] => furnished
+    [14] => plot_area
+    [15] => towers
+    [16] => floors
+    [17] => units
+    [18] => total_project_area
+    [19] => open_area
+    [20] => amenities
+    [21] => about_project
+    [22] => phases_json
+    [23] => spec_flooring
+    [24] => spec_bathrooms
+    [25] => spec_kitchen
+    [26] => spec_doors_windows
+    [27] => owner_email
+    [28] => owner_phone
+    [29] => appointment_date
+    [30] => image
+    [31] => brochure
+    [32] => project_order
+    [33] => status
+    [34] => package_id
+    [35] => created_at
+    [36] => updated_at
+)
+
+[29-Aug-2026 09:44:42 UTC] Skipping field (column does not exist): rera_number
+[29-Aug-2026 09:44:42 UTC] Skipping field (column does not exist): approvals
+[29-Aug-2026 09:44:42 UTC] Skipping field (column does not exist): min_sft
+[29-Aug-2026 09:44:42 UTC] Skipping field (column does not exist): construction_status
+[29-Aug-2026 09:44:42 UTC] SQL: UPDATE trending_projects SET project_name = ?, address = ?, price = ?, year_built = ? WHERE id = ?
+[29-Aug-2026 09:44:42 UTC] Params: Array
+(
+    [0] => Kalpataru Vian
+    [1] => Andheri West, western suburb, Mumbai
+    [2] => ₹1.78 Cr
+    [3] => Aug, 2026
+    [4] => 1
+)
+
+[29-Aug-2026 09:45:03 UTC] Config loaded from: /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/front/includes/config.php
+[29-Aug-2026 09:45:03 UTC] INPUT DATA: Array
+(
+    [project_id] => 1
+    [section] => amenities
+    [fields] => Array
+        (
+            [furnished] => Semi-furnished
+            [plot_area] => 4729
+            [amenities] => Parking.Lift,24x7 Security,Power Backup,Gym,Swimming Pool
+        )
+
+)
+
+[29-Aug-2026 09:45:03 UTC] Table columns: Array
+(
+    [0] => id
+    [1] => project_name
+    [2] => category_id
+    [3] => listing_type_id
+    [4] => category_type
+    [5] => slug
+    [6] => address
+    [7] => city
+    [8] => price
+    [9] => bedrooms
+    [10] => bathrooms
+    [11] => area
+    [12] => year_built
+    [13] => furnished
+    [14] => plot_area
+    [15] => towers
+    [16] => floors
+    [17] => units
+    [18] => total_project_area
+    [19] => open_area
+    [20] => amenities
+    [21] => about_project
+    [22] => phases_json
+    [23] => spec_flooring
+    [24] => spec_bathrooms
+    [25] => spec_kitchen
+    [26] => spec_doors_windows
+    [27] => owner_email
+    [28] => owner_phone
+    [29] => appointment_date
+    [30] => image
+    [31] => brochure
+    [32] => project_order
+    [33] => status
+    [34] => package_id
+    [35] => created_at
+    [36] => updated_at
+)
+
+[29-Aug-2026 09:45:03 UTC] SQL: UPDATE trending_projects SET furnished = ?, plot_area = ?, amenities = ? WHERE id = ?
+[29-Aug-2026 09:45:03 UTC] Params: Array
+(
+    [0] => Semi-furnished
+    [1] => 4729
+    [2] => Parking.Lift,24x7 Security,Power Backup,Gym,Swimming Pool
+    [3] => 1
+)
+
+[29-Aug-2026 09:45:15 UTC] Config loaded from: /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/front/includes/config.php
+[29-Aug-2026 09:45:15 UTC] INPUT DATA: Array
+(
+    [project_id] => 1
+    [section] => amenities
+    [fields] => Array
+        (
+            [furnished] => Semi-furnished
+            [plot_area] => 4729
+            [amenities] => Parking.Lift,24x7 Security,Power Backup,Gym,Swimming Pool
+        )
+
+)
+
+[29-Aug-2026 09:45:15 UTC] Table columns: Array
+(
+    [0] => id
+    [1] => project_name
+    [2] => category_id
+    [3] => listing_type_id
+    [4] => category_type
+    [5] => slug
+    [6] => address
+    [7] => city
+    [8] => price
+    [9] => bedrooms
+    [10] => bathrooms
+    [11] => area
+    [12] => year_built
+    [13] => furnished
+    [14] => plot_area
+    [15] => towers
+    [16] => floors
+    [17] => units
+    [18] => total_project_area
+    [19] => open_area
+    [20] => amenities
+    [21] => about_project
+    [22] => phases_json
+    [23] => spec_flooring
+    [24] => spec_bathrooms
+    [25] => spec_kitchen
+    [26] => spec_doors_windows
+    [27] => owner_email
+    [28] => owner_phone
+    [29] => appointment_date
+    [30] => image
+    [31] => brochure
+    [32] => project_order
+    [33] => status
+    [34] => package_id
+    [35] => created_at
+    [36] => updated_at
+)
+
+[29-Aug-2026 09:45:15 UTC] SQL: UPDATE trending_projects SET furnished = ?, plot_area = ?, amenities = ? WHERE id = ?
+[29-Aug-2026 09:45:15 UTC] Params: Array
+(
+    [0] => Semi-furnished
+    [1] => 4729
+    [2] => Parking.Lift,24x7 Security,Power Backup,Gym,Swimming Pool
+    [3] => 1
+)
+
+[29-Aug-2026 09:53:38 UTC] Config loaded from: /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/front/includes/config.php
+[29-Aug-2026 09:53:38 UTC] INPUT DATA: Array
+(
+    [project_id] => 1
+    [section] => amenities
+    [fields] => Array
+        (
+            [furnished] => Semi-furnished
+            [plot_area] => 4729
+            [amenities] => Parking.Lift,24x7 Security,Power Backup,Gym
+        )
+
+)
+
+[29-Aug-2026 09:53:38 UTC] Table columns: Array
+(
+    [0] => id
+    [1] => project_name
+    [2] => category_id
+    [3] => listing_type_id
+    [4] => category_type
+    [5] => slug
+    [6] => address
+    [7] => city
+    [8] => price
+    [9] => bedrooms
+    [10] => bathrooms
+    [11] => area
+    [12] => year_built
+    [13] => furnished
+    [14] => plot_area
+    [15] => towers
+    [16] => floors
+    [17] => units
+    [18] => total_project_area
+    [19] => open_area
+    [20] => amenities
+    [21] => about_project
+    [22] => phases_json
+    [23] => spec_flooring
+    [24] => spec_bathrooms
+    [25] => spec_kitchen
+    [26] => spec_doors_windows
+    [27] => owner_email
+    [28] => owner_phone
+    [29] => appointment_date
+    [30] => image
+    [31] => brochure
+    [32] => project_order
+    [33] => status
+    [34] => package_id
+    [35] => created_at
+    [36] => updated_at
+)
+
+[29-Aug-2026 09:53:38 UTC] SQL: UPDATE trending_projects SET furnished = ?, plot_area = ?, amenities = ? WHERE id = ?
+[29-Aug-2026 09:53:38 UTC] Params: Array
+(
+    [0] => Semi-furnished
+    [1] => 4729
+    [2] => Parking.Lift,24x7 Security,Power Backup,Gym
+    [3] => 1
+)
+
+[29-Aug-2026 09:53:56 UTC] Config loaded from: /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/front/includes/config.php
+[29-Aug-2026 09:53:56 UTC] INPUT DATA: Array
+(
+    [project_id] => 1
+    [section] => amenities
+    [fields] => Array
+        (
+            [furnished] => Semi-furnished
+            [plot_area] => 4729
+            [amenities] => Parking.Lift,24x7 Security,Power Backup,Gym,Swimming Pool
+        )
+
+)
+
+[29-Aug-2026 09:53:56 UTC] Table columns: Array
+(
+    [0] => id
+    [1] => project_name
+    [2] => category_id
+    [3] => listing_type_id
+    [4] => category_type
+    [5] => slug
+    [6] => address
+    [7] => city
+    [8] => price
+    [9] => bedrooms
+    [10] => bathrooms
+    [11] => area
+    [12] => year_built
+    [13] => furnished
+    [14] => plot_area
+    [15] => towers
+    [16] => floors
+    [17] => units
+    [18] => total_project_area
+    [19] => open_area
+    [20] => amenities
+    [21] => about_project
+    [22] => phases_json
+    [23] => spec_flooring
+    [24] => spec_bathrooms
+    [25] => spec_kitchen
+    [26] => spec_doors_windows
+    [27] => owner_email
+    [28] => owner_phone
+    [29] => appointment_date
+    [30] => image
+    [31] => brochure
+    [32] => project_order
+    [33] => status
+    [34] => package_id
+    [35] => created_at
+    [36] => updated_at
+)
+
+[29-Aug-2026 09:53:56 UTC] SQL: UPDATE trending_projects SET furnished = ?, plot_area = ?, amenities = ? WHERE id = ?
+[29-Aug-2026 09:53:56 UTC] Params: Array
+(
+    [0] => Semi-furnished
+    [1] => 4729
+    [2] => Parking.Lift,24x7 Security,Power Backup,Gym,Swimming Pool
+    [3] => 1
+)
+
+[29-Aug-2026 09:55:47 UTC] Config loaded from: /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/front/includes/config.php
+[29-Aug-2026 09:55:47 UTC] INPUT DATA: Array
+(
+    [project_id] => 1
+    [section] => location
+    [fields] => Array
+        (
+            [lat] => 19.2183
+            [lng] => 72.9781
+        )
+
+)
+
+[29-Aug-2026 09:55:47 UTC] Table columns: Array
+(
+    [0] => id
+    [1] => project_name
+    [2] => category_id
+    [3] => listing_type_id
+    [4] => category_type
+    [5] => slug
+    [6] => address
+    [7] => city
+    [8] => price
+    [9] => bedrooms
+    [10] => bathrooms
+    [11] => area
+    [12] => year_built
+    [13] => furnished
+    [14] => plot_area
+    [15] => towers
+    [16] => floors
+    [17] => units
+    [18] => total_project_area
+    [19] => open_area
+    [20] => amenities
+    [21] => about_project
+    [22] => phases_json
+    [23] => spec_flooring
+    [24] => spec_bathrooms
+    [25] => spec_kitchen
+    [26] => spec_doors_windows
+    [27] => owner_email
+    [28] => owner_phone
+    [29] => appointment_date
+    [30] => image
+    [31] => brochure
+    [32] => project_order
+    [33] => status
+    [34] => package_id
+    [35] => created_at
+    [36] => updated_at
+)
+
+[29-Aug-2026 09:55:47 UTC] Skipping field (column does not exist): lat
+[29-Aug-2026 09:55:47 UTC] Skipping field (column does not exist): lng
+[29-Aug-2026 09:55:51 UTC] Config loaded from: /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/front/includes/config.php
+[29-Aug-2026 09:55:51 UTC] INPUT DATA: Array
+(
+    [project_id] => 1
+    [section] => location
+    [fields] => Array
+        (
+            [lat] => 19.2183
+            [lng] => 72.9781
+        )
+
+)
+
+[29-Aug-2026 09:55:51 UTC] Table columns: Array
+(
+    [0] => id
+    [1] => project_name
+    [2] => category_id
+    [3] => listing_type_id
+    [4] => category_type
+    [5] => slug
+    [6] => address
+    [7] => city
+    [8] => price
+    [9] => bedrooms
+    [10] => bathrooms
+    [11] => area
+    [12] => year_built
+    [13] => furnished
+    [14] => plot_area
+    [15] => towers
+    [16] => floors
+    [17] => units
+    [18] => total_project_area
+    [19] => open_area
+    [20] => amenities
+    [21] => about_project
+    [22] => phases_json
+    [23] => spec_flooring
+    [24] => spec_bathrooms
+    [25] => spec_kitchen
+    [26] => spec_doors_windows
+    [27] => owner_email
+    [28] => owner_phone
+    [29] => appointment_date
+    [30] => image
+    [31] => brochure
+    [32] => project_order
+    [33] => status
+    [34] => package_id
+    [35] => created_at
+    [36] => updated_at
+)
+
+[29-Aug-2026 09:55:51 UTC] Skipping field (column does not exist): lat
+[29-Aug-2026 09:55:51 UTC] Skipping field (column does not exist): lng
+[29-Aug-2026 10:01:15 UTC] Config loaded from: /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/front/includes/config.php
+[29-Aug-2026 10:01:15 UTC] INPUT DATA: Array
+(
+    [project_id] => 1
+    [section] => company-details
+    [fields] => Array
+        (
+            [company_name] => Estate Hub
+            [owner_phone] => +9190000000
+            [website] => https://estatehub.com
+            [address] => Andheri West, western suburb, Mumbai
+            [project_name] => Kalpataru Vian
+            [owner_email] => contact@test.tatitodevelopersandpromoters.com
+            [owner_email2] => kalpataruvian@gmail.com
+            [owner_email_display] => info@kalpataruvian.com
+        )
+
+)
+
+[29-Aug-2026 10:01:15 UTC] Table columns: Array
+(
+    [0] => id
+    [1] => project_name
+    [2] => category_id
+    [3] => listing_type_id
+    [4] => category_type
+    [5] => slug
+    [6] => address
+    [7] => city
+    [8] => price
+    [9] => bedrooms
+    [10] => bathrooms
+    [11] => area
+    [12] => year_built
+    [13] => furnished
+    [14] => plot_area
+    [15] => towers
+    [16] => floors
+    [17] => units
+    [18] => total_project_area
+    [19] => open_area
+    [20] => amenities
+    [21] => about_project
+    [22] => phases_json
+    [23] => spec_flooring
+    [24] => spec_bathrooms
+    [25] => spec_kitchen
+    [26] => spec_doors_windows
+    [27] => owner_email
+    [28] => owner_phone
+    [29] => appointment_date
+    [30] => image
+    [31] => brochure
+    [32] => project_order
+    [33] => status
+    [34] => package_id
+    [35] => created_at
+    [36] => updated_at
+)
+
+[29-Aug-2026 10:01:15 UTC] Skipping unauthorized field: company_name
+[29-Aug-2026 10:01:15 UTC] Skipping field (column does not exist): website
+[29-Aug-2026 10:01:15 UTC] Skipping field (column does not exist): owner_email2
+[29-Aug-2026 10:01:15 UTC] Skipping field (column does not exist): owner_email_display
+[29-Aug-2026 10:01:15 UTC] SQL: UPDATE trending_projects SET owner_phone = ?, address = ?, project_name = ?, owner_email = ? WHERE id = ?
+[29-Aug-2026 10:01:15 UTC] Params: Array
+(
+    [0] => +9190000000
+    [1] => Andheri West, western suburb, Mumbai
+    [2] => Kalpataru Vian
+    [3] => contact@test.tatitodevelopersandpromoters.com
+    [4] => 1
+)
+
+[29-Aug-2026 10:01:43 UTC] Config loaded from: /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/front/includes/config.php
+[29-Aug-2026 10:01:43 UTC] INPUT DATA: Array
+(
+    [project_id] => 1
+    [section] => company-details
+    [fields] => Array
+        (
+            [company_name] => Estate Hub
+            [owner_phone] => +9190000011
+            [website] => https://estatehub.com
+            [address] => Andheri West, western suburb, Mumbai
+            [project_name] => Kalpataru Vian
+            [owner_email] => contact@test.tatitodevelopersandpromoters.com
+            [owner_email2] => kalpataruvian@gmail.com
+            [owner_email_display] => info@kalpataruvian.com
+        )
+
+)
+
+[29-Aug-2026 10:01:43 UTC] Table columns: Array
+(
+    [0] => id
+    [1] => project_name
+    [2] => category_id
+    [3] => listing_type_id
+    [4] => category_type
+    [5] => slug
+    [6] => address
+    [7] => city
+    [8] => price
+    [9] => bedrooms
+    [10] => bathrooms
+    [11] => area
+    [12] => year_built
+    [13] => furnished
+    [14] => plot_area
+    [15] => towers
+    [16] => floors
+    [17] => units
+    [18] => total_project_area
+    [19] => open_area
+    [20] => amenities
+    [21] => about_project
+    [22] => phases_json
+    [23] => spec_flooring
+    [24] => spec_bathrooms
+    [25] => spec_kitchen
+    [26] => spec_doors_windows
+    [27] => owner_email
+    [28] => owner_phone
+    [29] => appointment_date
+    [30] => image
+    [31] => brochure
+    [32] => project_order
+    [33] => status
+    [34] => package_id
+    [35] => created_at
+    [36] => updated_at
+)
+
+[29-Aug-2026 10:01:43 UTC] Skipping unauthorized field: company_name
+[29-Aug-2026 10:01:43 UTC] Skipping field (column does not exist): website
+[29-Aug-2026 10:01:43 UTC] Skipping field (column does not exist): owner_email2
+[29-Aug-2026 10:01:43 UTC] Skipping field (column does not exist): owner_email_display
+[29-Aug-2026 10:01:43 UTC] SQL: UPDATE trending_projects SET owner_phone = ?, address = ?, project_name = ?, owner_email = ? WHERE id = ?
+[29-Aug-2026 10:01:43 UTC] Params: Array
+(
+    [0] => +9190000011
+    [1] => Andheri West, western suburb, Mumbai
+    [2] => Kalpataru Vian
+    [3] => contact@test.tatitodevelopersandpromoters.com
+    [4] => 1
+)
+
+[29-Aug-2026 10:03:32 UTC] Config loaded from: /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/front/includes/config.php
+[29-Aug-2026 10:03:32 UTC] INPUT DATA: Array
+(
+    [project_id] => 1
+    [section] => project-details
+    [fields] => Array
+        (
+            [about_project] => Check out Kalpataru Vian in Andheri West, western suburb, Mumbai, one of the upcoming under-construction housing societies. There are apartments for sale in this society. This society will have all basic facilities and amenities to suit homebuyer's needs and requirements.
+
+Being a RERA-registered society, the project details and other important information is also available on the state RERA portal.
+
+Here's everything you need to know about the must-know features of this housing society along with photos, floor plans, payment plans, brochure download procedure and other exciting facts about your future home:
+            [towers] => N/A
+            [floors] => 1
+            [units] => N/A
+            [total_project_area] => 4721
+            [open_area] => N/A
+            [spec_flooring] => Wooden flooring in the master bedroom
+
+800x800mm double charged vitrified tiled flooring in all rooms
+
+600x600mm rustic tiles in terraces and balconies
+
+300x300mm matte finished tiled flooring in all toilets
+            [spec_bathrooms] => 600x300mm digital wall tiles in all toilets up to lintel level
+Provision for exhaust fans
+Hot and cold mixer unit in bathrooms
+JAQUAR/GROHE/CERA or equivalent CP fittings
+HINDWARE/RAK/CERA or equivalent sanitary ware
+Concealed plumbing
+            [spec_kitchen] => Granite kitchen platform with stainless steel sink
+600x300mm digital wall tiles up to ceiling
+Provision for exhaust fan
+R.O. water purifier
+            [spec_doors_windows] => Decorative main door with both side laminated flush door with laminated / polished wooden door frames in living and bed rooms
+Granite door frames in toilets and terraces with both side sliding/french doors for terraces attached to living rooms
+High density powder coated aluminium sliding windows with mosquito net & MS grills
+        )
+
+)
+
+[29-Aug-2026 10:03:32 UTC] Table columns: Array
+(
+    [0] => id
+    [1] => project_name
+    [2] => category_id
+    [3] => listing_type_id
+    [4] => category_type
+    [5] => slug
+    [6] => address
+    [7] => city
+    [8] => price
+    [9] => bedrooms
+    [10] => bathrooms
+    [11] => area
+    [12] => year_built
+    [13] => furnished
+    [14] => plot_area
+    [15] => towers
+    [16] => floors
+    [17] => units
+    [18] => total_project_area
+    [19] => open_area
+    [20] => amenities
+    [21] => about_project
+    [22] => phases_json
+    [23] => spec_flooring
+    [24] => spec_bathrooms
+    [25] => spec_kitchen
+    [26] => spec_doors_windows
+    [27] => owner_email
+    [28] => owner_phone
+    [29] => appointment_date
+    [30] => image
+    [31] => brochure
+    [32] => project_order
+    [33] => status
+    [34] => package_id
+    [35] => created_at
+    [36] => updated_at
+)
+
+[29-Aug-2026 10:03:32 UTC] SQL: UPDATE trending_projects SET about_project = ?, towers = ?, floors = ?, units = ?, total_project_area = ?, open_area = ?, spec_flooring = ?, spec_bathrooms = ?, spec_kitchen = ?, spec_doors_windows = ? WHERE id = ?
+[29-Aug-2026 10:03:32 UTC] Params: Array
+(
+    [0] => Check out Kalpataru Vian in Andheri West, western suburb, Mumbai, one of the upcoming under-construction housing societies. There are apartments for sale in this society. This society will have all basic facilities and amenities to suit homebuyer's needs and requirements.
+
+Being a RERA-registered society, the project details and other important information is also available on the state RERA portal.
+
+Here's everything you need to know about the must-know features of this housing society along with photos, floor plans, payment plans, brochure download procedure and other exciting facts about your future home:
+    [1] => N/A
+    [2] => 1
+    [3] => N/A
+    [4] => 4721
+    [5] => N/A
+    [6] => Wooden flooring in the master bedroom
+
+800x800mm double charged vitrified tiled flooring in all rooms
+
+600x600mm rustic tiles in terraces and balconies
+
+300x300mm matte finished tiled flooring in all toilets
+    [7] => 600x300mm digital wall tiles in all toilets up to lintel level
+Provision for exhaust fans
+Hot and cold mixer unit in bathrooms
+JAQUAR/GROHE/CERA or equivalent CP fittings
+HINDWARE/RAK/CERA or equivalent sanitary ware
+Concealed plumbing
+    [8] => Granite kitchen platform with stainless steel sink
+600x300mm digital wall tiles up to ceiling
+Provision for exhaust fan
+R.O. water purifier
+    [9] => Decorative main door with both side laminated flush door with laminated / polished wooden door frames in living and bed rooms
+Granite door frames in toilets and terraces with both side sliding/french doors for terraces attached to living rooms
+High density powder coated aluminium sliding windows with mosquito net & MS grills
+    [10] => 1
+)
+
+[29-Aug-2026 10:11:10 UTC] Config loaded from: /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/front/includes/config.php
+[29-Aug-2026 10:11:10 UTC] INPUT DATA: Array
+(
+    [project_id] => 1
+    [section] => project-details
+    [fields] => Array
+        (
+            [bedrooms] => 6
+            [bathrooms] => 6
+            [area] => 4,200 sqft
+            [year_built] => Aug, 2025
+            [about_project] => Check out Kalpataru Vian in Andheri West, western suburb, Mumbai, one of the upcoming under-construction housing societies. There are apartments for sale in this society. This society will have all basic facilities and amenities to suit homebuyer's needs and requirements.
+
+Being a RERA-registered society, the project details and other important information is also available on the state RERA portal.
+
+Here's everything you need to know about the must-know features of this housing society along with photos, floor plans, payment plans, brochure download procedure and other exciting facts about your future home:
+            [towers] => N/A
+            [floors] => 1
+            [units] => N/A
+            [total_project_area] => 4721
+            [open_area] => N/A
+            [spec_flooring] => Wooden flooring in the master bedroom
+
+800x800mm double charged vitrified tiled flooring in all rooms
+
+600x600mm rustic tiles in terraces and balconies
+
+300x300mm matte finished tiled flooring in all toilets
+            [spec_bathrooms] => 600x300mm digital wall tiles in all toilets up to lintel level
+Provision for exhaust fans
+Hot and cold mixer unit in bathrooms
+JAQUAR/GROHE/CERA or equivalent CP fittings
+HINDWARE/RAK/CERA or equivalent sanitary ware
+Concealed plumbing
+            [spec_kitchen] => Granite kitchen platform with stainless steel sink
+600x300mm digital wall tiles up to ceiling
+Provision for exhaust fan
+R.O. water purifier
+            [spec_doors_windows] => Decorative main door with both side laminated flush door with laminated / polished wooden door frames in living and bed rooms
+Granite door frames in toilets and terraces with both side sliding/french doors for terraces attached to living rooms
+High density powder coated aluminium sliding windows with mosquito net & MS grills
+        )
+
+)
+
+[29-Aug-2026 10:11:10 UTC] Table columns: Array
+(
+    [0] => id
+    [1] => project_name
+    [2] => category_id
+    [3] => listing_type_id
+    [4] => category_type
+    [5] => slug
+    [6] => address
+    [7] => city
+    [8] => price
+    [9] => bedrooms
+    [10] => bathrooms
+    [11] => area
+    [12] => year_built
+    [13] => furnished
+    [14] => plot_area
+    [15] => towers
+    [16] => floors
+    [17] => units
+    [18] => total_project_area
+    [19] => open_area
+    [20] => amenities
+    [21] => about_project
+    [22] => phases_json
+    [23] => spec_flooring
+    [24] => spec_bathrooms
+    [25] => spec_kitchen
+    [26] => spec_doors_windows
+    [27] => owner_email
+    [28] => owner_phone
+    [29] => appointment_date
+    [30] => image
+    [31] => brochure
+    [32] => project_order
+    [33] => status
+    [34] => package_id
+    [35] => created_at
+    [36] => updated_at
+)
+
+[29-Aug-2026 10:11:10 UTC] SQL: UPDATE trending_projects SET bedrooms = ?, bathrooms = ?, area = ?, year_built = ?, about_project = ?, towers = ?, floors = ?, units = ?, total_project_area = ?, open_area = ?, spec_flooring = ?, spec_bathrooms = ?, spec_kitchen = ?, spec_doors_windows = ? WHERE id = ?
+[29-Aug-2026 10:11:10 UTC] Params: Array
+(
+    [0] => 6
+    [1] => 6
+    [2] => 4,200 sqft
+    [3] => Aug, 2025
+    [4] => Check out Kalpataru Vian in Andheri West, western suburb, Mumbai, one of the upcoming under-construction housing societies. There are apartments for sale in this society. This society will have all basic facilities and amenities to suit homebuyer's needs and requirements.
+
+Being a RERA-registered society, the project details and other important information is also available on the state RERA portal.
+
+Here's everything you need to know about the must-know features of this housing society along with photos, floor plans, payment plans, brochure download procedure and other exciting facts about your future home:
+    [5] => N/A
+    [6] => 1
+    [7] => N/A
+    [8] => 4721
+    [9] => N/A
+    [10] => Wooden flooring in the master bedroom
+
+800x800mm double charged vitrified tiled flooring in all rooms
+
+600x600mm rustic tiles in terraces and balconies
+
+300x300mm matte finished tiled flooring in all toilets
+    [11] => 600x300mm digital wall tiles in all toilets up to lintel level
+Provision for exhaust fans
+Hot and cold mixer unit in bathrooms
+JAQUAR/GROHE/CERA or equivalent CP fittings
+HINDWARE/RAK/CERA or equivalent sanitary ware
+Concealed plumbing
+    [12] => Granite kitchen platform with stainless steel sink
+600x300mm digital wall tiles up to ceiling
+Provision for exhaust fan
+R.O. water purifier
+    [13] => Decorative main door with both side laminated flush door with laminated / polished wooden door frames in living and bed rooms
+Granite door frames in toilets and terraces with both side sliding/french doors for terraces attached to living rooms
+High density powder coated aluminium sliding windows with mosquito net & MS grills
+    [14] => 1
+)
+

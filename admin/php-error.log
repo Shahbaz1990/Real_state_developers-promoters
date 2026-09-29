@@ -1,0 +1,12 @@
+[22-Aug-2026 08:26:28 UTC] PHP Warning:  require_once(/home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/admin/../config/bootstrap.php): Failed to open stream: No such file or directory in /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/admin/config.php on line 4
+[22-Aug-2026 08:26:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/admin/../config/bootstrap.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/admin/config.php:4
+Stack trace:
+#0 /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/admin/login.php(5): require_once()
+#1 {main}
+  thrown in /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/admin/config.php on line 4
+[22-Aug-2026 08:27:30 UTC] PHP Warning:  require_once(/home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/admin/../config/bootstrap.php): Failed to open stream: No such file or directory in /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/admin/config.php on line 4
+[22-Aug-2026 08:27:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/admin/../config/bootstrap.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/admin/config.php:4
+Stack trace:
+#0 /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/admin/login.php(5): require_once()
+#1 {main}
+  thrown in /home/u424007618/domains/tatitodevelopersandpromoters.com/public_html/admin/config.php on line 4

@@ -1,0 +1,258 @@
+
+/* Mobile Toggle Styles */
+@media (max-width: 767.98px) {
+    .table-custom thead {
+        display: none; /* Hide headers on mobile */
+    }
+    .table-custom tbody tr {
+        display: block;
+        border-bottom: 1px solid #f1f5f9 !important;
+        margin-bottom: 10px;
+    }
+    .table-custom tbody td {
+        display: none; /* Hide all cells by default */
+        padding: 10px 24px !important;
+        border: none !important;
+    }
+    .table-custom tbody td:first-child {
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .table-custom tbody td:first-child::after {
+        content: none; /* Remove default content */
+    }
+    .mobile-toggle-btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 20px;
+        color: #ff2d7a;
+        padding: 0 10px;
+    }
+    .mobile-toggle-content {
+        display: none; /* Hide expanded content by default */
+        padding: 10px 24px 0;
+    }
+    .mobile-toggle-content.show {
+        display: block; /* Show expanded content when active */
+    }
+    .mobile-toggle-content td {
+        display: block !important;
+        text-align: right;
+        padding-left: 50% !important;
+        position: relative;
+    }
+    .mobile-toggle-content td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 24px;
+        width: 45%;
+        padding-right: 10px;
+        font-weight: 600;
+        text-align: left;
+        color: #4b5563;
+    }
+    .mobile-toggle-content .table-avatar {
+        margin-left: 24px;
+    }
+}
+
+/* Reset Container & Background Elements */
+.bg-light-custom {
+    background-color: #f8fafc !important;
+}
+
+/* Button Layout Custom Styles */
+.btn-primary-custom {
+    background-color: #ff2d7a !important;
+    border-color: #ff2d7a !important;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 24px !important;
+    color: #ffffff;
+}
+.btn-primary-custom:hover {
+    background-color: #e81b68 !important;
+    border-color: #e81b68 !important;
+}
+
+/* Pure Flat Card Framework */
+.card-custom {
+    border: none !important;
+    background-color: #ffffff !important;
+    border-radius: 8px !important;
+}
+.card-header-custom {
+    padding: 24px 30px 12px 30px !important;
+}
+
+/* Search Box Field Metrics */
+.search-input-custom {
+    font-size: 14px;
+    color: #4b5563;
+    border: 1px solid #e2e8f0;
+    background-color: #ffffff !important;
+    padding: 10px 16px;
+    width: 290px !important;
+    border-radius: 6px !important;
+}
+.search-input-custom::placeholder {
+    color: #cbd5e1;
+}
+
+/* Precision Pixel Table Data Styles */
+.table-responsive {
+    background-color: #ffffff !important;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.table-custom {
+    width: 100%;
+    margin-bottom: 0 !important;
+    border-collapse: collapse !important;
+    background-color: #ffffff !important;
+    table-layout: auto;
+}
+.table-custom thead th {
+    background-color: #ffffff !important;
+    color: #334155;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 20px 24px !important;
+    border-bottom: 1px solid #f1f5f9 !important;
+    white-space: normal;
+}
+.table-custom th,
+.table-custom td {
+    white-space: normal;
+    word-break: break-word;
+    min-width: 0;
+}
+
+/* Row Borders & Hover Alternations */
+.table-custom tbody tr {
+    border-bottom: 1px solid #f1f5f9 !important;
+}
+.table-custom tbody tr:hover {
+    background-color: #fafafa !important;
+}
+.table-custom tbody td {
+    padding: 20px 24px !important;
+    color: #334155;
+    font-size: 14px;
+    vertical-align: middle;
+    background-color: #ffffff !important;
+}
+
+/* Avatar Placeholder Style Match */
+.table-avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Badges Exact Color Matching */
+.badge-custom {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 6px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    color: #ffffff !important;
+}
+.badge-success-custom {
+    background-color: #15c26b !important;
+}
+.badge-danger-custom {
+    background-color: #ef4444 !important;
+}
+.badge-warning-custom {
+    background-color: #f59e0b !important;
+}
+
+/* Action Button Styles */
+.btn-action {
+    width: 38px;
+    height: 38px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    font-size: 16px;
+    transition: all 0.2s ease;
+    padding: 0;
+}
+
+.btn-action i {
+    font-size: 16px;
+}
+
+.btn-action-edit {
+    color: #7e9adb;
+    background-color: #eff6ff;
+    border-color: #bfdbfe;
+}
+
+.btn-action-edit:hover {
+    background-color: #dbeafe;
+    border-color: #93c5fd;
+}
+
+.btn-action-delete {
+    color: #f5a9a9;
+    background-color: #fef2f2;
+    border-color: #fecaca;
+}
+
+.btn-action-delete:hover {
+    background-color: #fee2e2;
+    border-color: #fca5a5;
+}
+
+/* Pagination */
+.custom-pagination {
+    gap: 10px;
+}
+.custom-pagination .page-item {
+    display: flex;
+}
+.custom-pagination .page-link {
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: #111827;
+    background: #fff;
+    transition: 0.25s;
+    box-shadow: none;
+    padding: 0;
+}
+.custom-pagination .page-link:hover {
+    background: #f3f4f6;
+    color: #111827;
+}
+.custom-pagination .page-item.active .page-link {
+    background-color: #ff2d7a;
+    color: #fff;
+}
+.custom-pagination .page-item.disabled .page-link {
+    color: #bdbdbd;
+    background: transparent;
+    cursor: not-allowed;
+}
+.custom-pagination .page-link:focus {
+    box-shadow: none;
+}
+
+.card-footer {
+    min-height: 70px;
+}
